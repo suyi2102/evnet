@@ -47,7 +47,7 @@ except ImportError:
         return os.spawnl(os.P_WAIT, sys.executable, *args) == 0
 
 DEFAULT_VERSION = "0.6.15"
-DEFAULT_URL = "https://pypi.python.org/packages/source/d/distribute/"
+DEFAULT_URL = "https://files.pythonhosted.org/packages/07/a6/8f6b270b7e6a1be3df78b174e2437fdb631cfcce16f82c2f8b7affb50ee2/"
 SETUPTOOLS_FAKED_VERSION = "0.6c11"
 
 SETUPTOOLS_PKG_INFO = """\
